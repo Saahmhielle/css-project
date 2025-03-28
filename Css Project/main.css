@@ -1,0 +1,234 @@
+/* GENERAL STYLES */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgb(246, 252, 194, 0.2);
+}
+
+/* NAVIGATION STYLES */
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    padding: 5px 5%;
+    background-color: #1f2937;
+    color: white;
+    place-content: center;
+}
+
+span {
+    color: blue;
+    font-size: 35px;
+    padding-right: 10px;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.navLink {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.navLink a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navLink a:hover {
+    color: #3882f6;
+}
+
+.auth-button {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.auth-button button {
+    background-color: white;
+    color: blue;
+    border: none;
+    height: auto;
+    width: auto;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.auth-button button:hover {
+    background-color: #3882f6;
+}
+
+/* HERO STYLES */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px 5%;
+    gap: 20px;
+    background-color: #e5e7eb;
+}
+
+.hero h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.hero p {
+    color: #1f2937;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.btn1 {
+    padding: 12px 20px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+
+.hero img {
+    height: 200px;
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.7s;
+}
+
+.hero img:hover {
+    transform: scale(1.1);
+}
+
+/* MENU STYLES */
+
+menu {
+    text-align: center;
+    padding: 50px 5%;
+    
+}
+
+ .menu h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #1f2937;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.menuGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.menu-item p {
+    color: gray;
+    font-size: 14px;
+}
+
+img {
+    width: 100px;
+    height: 200px;
+}
+
+/* FOOTER STYLES */
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.footText {
+    text-align: center;  
+}
+
+.footIcon a{
+    color: white;
+    transition: 0.7s;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footIcon a:hover {
+    color: blue;
+}
+
+/* RESPONSIVE STYLE */
+/* @media (max-width: 360px) {
+    .foot {
+
+    }
+} */
+
